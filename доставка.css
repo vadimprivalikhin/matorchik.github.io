@@ -1,0 +1,166 @@
+body {
+  position: fixed;
+
+margin:0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url(2955487295842644_19a.jpg);
+}
+
+
+
+p.qqq {
+    position: relative;
+    margin:0;
+	font-family:Arial;
+	padding-top: 30px;
+	padding-left: 30px;
+	color: #FFFFFF;
+}
+
+p.ggg {
+position: relative;
+    margin:0;
+	font-family:Arial;
+	padding-top: 0px;
+	padding-bottom: 600px;
+	padding-left: 81.3%;
+	color: #FFFFFF;
+	font-size: 90%
+
+
+}
+
+
+footer{
+left: 0; bottom: 0;
+ /* Левый нижний угол */
+position: relative;
+text-align: center;
+width: 100%;
+height: 5%;
+top: 0;
+left: 0;
+margin-top: 39.6%;
+background: #000000;
+opacity: 0.83;
+text-align: right;
+}
+
+
+img.zaz{
+  position: relative;
+ margin:0;
+padding-top: 4px;
+}
+
+p.sos {
+  position: relative;
+    margin:0;
+  font-family:Arial;
+  padding-top: 0px;
+  padding-right: 70px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+  font-size: 90%
+}
+
+h5{
+	color: #ffffff;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+
+
+
+img.ttt{
+
+	height: 24px;
+	width: 24px;
+}
+
+
+
+
+
+
+
+
+* { box-sizing: border-box; }
+
+header {
+  background: white;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+ 
+}
+.logo {
+  color: #D5B45B;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  padding: 20px 0;
+}
+nav {
+  display: table;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu > li {
+  width: 25%;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #404040;
+  padding: 15px 30px;
+}
+.topmenu li a:hover { color: #D5B45B; }
+.submenu-link:after {
+  
+  font-family: "FontAwesome";
+  color: inherit;
+  margin-left: 10px;
+}
+.submenu {
+  background: #273037;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 5;
+  width: 180px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+}
+.submenu a {
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.submenu li:last-child a { border-bottom: none; }
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
